@@ -1,12 +1,12 @@
 import type { NextConfig } from "next";
-import createMDX from "@next/mdx";
-
-const withMDX = createMDX({
-  extension: /\.mdx?$/,
-});
 
 const nextConfig: NextConfig = {
-  pageExtensions: ["ts", "tsx", "mdx"],
+  output: "export", // IMPORTANT
+  images: {
+    unoptimized: true, // required for GitHub Pages
+  },
+  basePath: "/GoAffpro-documentation",
+  assetPrefix: "/GoAffpro-documentation",
 };
 
-export default withMDX(nextConfig);
+export default nextConfig;
