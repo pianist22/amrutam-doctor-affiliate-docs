@@ -29,7 +29,7 @@ export default function Page() {
         Watch this video to understand how the entire affiliate system works.
       </P>
 
-      <DocYouTube embedId="Q_Ll4wqrtfA?si=kZzGpLAsuyyHWMCs" />
+      <DocYouTube embedId="FfSXAzekE0o?si=iChkdNlOSZaW1RLv" />
 
       {/* WHAT IS THIS */}
       <H2>What is the Affiliate Program?</H2>
